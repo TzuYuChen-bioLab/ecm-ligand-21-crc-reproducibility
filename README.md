@@ -23,7 +23,7 @@ The original delivery archives have been unpacked and normalized into one browsa
 | `source_data/` | Figure-source archive, with user-specific absolute paths replaced by package-relative paths |
 | `supplementary/` | `Supplementary_Tables_IJMS_SUBMISSION_READY.xlsx` |
 
-Publish this repository tree to GitHub, create the version tag/release `v1.0.0`, and archive that release through the GitHub–Zenodo integration. Do not add separate copies of the original ZIP archives to the same release; doing so would duplicate the same content and make the authoritative version ambiguous.
+This repository was published as GitHub release `v1.0.0` and archived through the GitHub–Zenodo integration at https://doi.org/10.5281/zenodo.22052359                                                                                          . Separate copies of the original ZIP archives are not attached to the release because doing so would duplicate the same content and make the authoritative version ambiguous.
 
 The archive does **not** claim that every cell-level GEO raw matrix, the complete GSE39582 series matrix, or raw mass-spectrometry file is redistributed here. Those public inputs remain available at their original repositories and are listed in `DATASET_ACCESSIONS_AND_LINKS.md`. The supplied 0.96-MB GSE39582 cache failed the analysis script's 10-MB early integrity guard and was therefore excluded rather than mislabeled as usable raw data; see `DATA_INVENTORY.md`.
 
@@ -68,9 +68,9 @@ This repository uses scoped mixed licensing:
 - Author-generated documentation, annotations, tables, figures, supplementary materials, and the authors' selection and arrangement of derived results are licensed under CC BY 4.0 to the extent that the authors hold the applicable rights; see `LICENSE-DATA`.
 - Underlying third-party and third-party-derived data are not relicensed. Their original source terms continue to apply; see `LICENSE`, `THIRD_PARTY_DATA_NOTICE.md`, and the dataset inventory.
 
-Zenodo metadata should declare both MIT and CC BY 4.0 and retain the third-party-data notice rather than applying one blanket license to every file.
+Zenodo records this repository as software under the MIT License. File-specific CC BY 4.0 terms and third-party-data exclusions remain governed by `LICENSE-DATA`, `LICENSE`, and `THIRD_PARTY_DATA_NOTICE.md`.
+
 
 ## Repository metadata
 
-`CITATION.cff` is ready for GitHub/Zenodo metadata import. The development repository is planned at https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility. The version-specific archival release is available at https://doi.org/10.5281/zenodo.22052359. The final article DOI will be added when available.
-
+``CITATION.cff` provides citation metadata for this release. The development repository is available at https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility. The version-specific archival release is available at https://doi.org/10.5281/zenodo.22052359                                                                                                                                                                  . The final article DOI will be added when available.
