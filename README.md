@@ -72,4 +72,5 @@ Zenodo metadata should declare both MIT and CC BY 4.0 and retain the third-party
 
 ## Repository metadata
 
-`CITATION.cff` is ready for GitHub/Zenodo metadata import. The development repository is planned at https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility. Add the version-specific Zenodo DOI and final article DOI when available. License scope and third-party exclusions are defined in `LICENSE`.
+`CITATION.cff` is ready for GitHub/Zenodo metadata import. The development repository is planned at https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility. The version-specific archival release is available at https://doi.org/10.5281/zenodo.22052359. The final article DOI will be added when available.
+
