@@ -1,0 +1,15 @@
+"model","status","reason","n","events","parameters","events_per_parameter","warning_messages","max_abs_log_coefficient","max_standard_error","zero_event_coefficient_levels"
+"GSE39582_Discovery_univariable","estimated","estimated without convergence or separation flags",410,115,1,115,"",0.232737165938634,0.097919417441175,0
+"GSE39582_Discovery_primary_prespecified","estimated","estimated without convergence or separation flags",373,108,7,15.4285714285714,"",1.95167538861764,1.07344403875954,0
+"GSE39582_Discovery_stratified_sensitivity","estimated","estimated without convergence or separation flags",373,108,3,36,"",0.668131172760048,0.354345784393392,0
+"GSE39582_Validation_univariable","estimated","estimated without convergence or separation flags",109,30,1,30,"",0.22475426289517,0.175204906460768,0
+"GSE39582_Validation_primary_prespecified","not_estimable","coxph convergence warning: Loglik converged before variable  4,5,6 ; coefficient may be infinite. | absolute log coefficient or standard error exceeded 10 | zero-event coefficient level(s): stage=I",98,30,7,4.28571428571429,"Loglik converged before variable  4,5,6 ; coefficient may be infinite.",20.3987707297603,4107.05901663586,1
+"GSE39582_Validation_stratified_sensitivity","estimated","estimated without convergence or separation flags",98,30,3,10,"",1.6099260395327,1.04910575122276,0
+"GSE39582_Discovery_secondary_site","estimated","estimated without convergence or separation flags",373,108,8,13.5,"",1.95328204289466,1.07371205572585,0
+"GSE39582_Discovery_secondary_CMS","estimated","estimated without convergence or separation flags",373,108,12,9,"",1.91439626664764,1.0753058962112,0
+"GSE39582_Discovery_secondary_mutations","estimated","estimated without convergence or separation flags",190,62,10,6.2,"",1.26301057051975,1.14896492282273,0
+"GSE39582_Validation_secondary_site","not_attempted","not attempted by design in validation: 30 recurrence events overall plus sparse/zero-event covariate levels cannot support this multi-parameter secondary model",98,30,,,"",,,1
+"GSE39582_Validation_secondary_CMS","not_attempted","not attempted by design in validation: 30 recurrence events overall plus sparse/zero-event covariate levels cannot support this multi-parameter secondary model",98,30,,,"",,,1
+"GSE39582_Validation_secondary_mutations","not_attempted","not attempted by design in validation: 30 recurrence events overall plus sparse/zero-event covariate levels cannot support this multi-parameter secondary model",89,27,,,"",,,2
+"GSE39582_pooled_score_by_cohort_interaction","estimated","estimated without convergence or separation flags",471,138,9,15.3333333333333,"",2.55332985369488,1.06697722476618,0
+"GSE39582_pooled_score_by_cohort_interaction_stratified","estimated","estimated without convergence or separation flags",471,138,5,27.6,"",0.774572532469626,0.333477898999722,0

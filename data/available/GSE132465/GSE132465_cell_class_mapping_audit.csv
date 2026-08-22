@@ -1,0 +1,67 @@
+"condition","broad_label","subtype_label","standardized_class","Freq"
+"Normal","B cells","CD19+CD20+ B","B_Plasma",1684
+"Tumor","B cells","CD19+CD20+ B","B_Plasma",2049
+"Normal","B cells","IgA+ Plasma","B_Plasma",3366
+"Tumor","B cells","IgA+ Plasma","B_Plasma",180
+"Normal","B cells","IgG+ Plasma","B_Plasma",94
+"Tumor","B cells","IgG+ Plasma","B_Plasma",1661
+"Normal","B cells","Unknown","B_Plasma",64
+"Tumor","B cells","Unknown","B_Plasma",48
+"Tumor","Epithelial cells","CMS1","Epithelial",1201
+"Tumor","Epithelial cells","CMS2","Epithelial",10771
+"Tumor","Epithelial cells","CMS3","Epithelial",5486
+"Tumor","Epithelial cells","CMS4","Epithelial",11
+"Normal","Epithelial cells","Goblet cells","Epithelial",139
+"Normal","Epithelial cells","Intermediate","Epithelial",181
+"Normal","Epithelial cells","Mature Enterocytes type 1","Epithelial",213
+"Normal","Epithelial cells","Mature Enterocytes type 2","Epithelial",131
+"Normal","Epithelial cells","Stem-like/TA","Epithelial",406
+"Normal","Stromal cells","Myofibroblasts","Fibroblast",9
+"Tumor","Stromal cells","Myofibroblasts","Fibroblast",1146
+"Normal","Stromal cells","Stromal 1","Fibroblast",972
+"Tumor","Stromal cells","Stromal 1","Fibroblast",73
+"Normal","Stromal cells","Stromal 2","Fibroblast",236
+"Tumor","Stromal cells","Stromal 2","Fibroblast",158
+"Normal","Stromal cells","Stromal 3","Fibroblast",744
+"Tumor","Stromal cells","Stromal 3","Fibroblast",124
+"Normal","Mast cells","Mast cells","Mast",184
+"Tumor","Mast cells","Mast cells","Mast",3
+"Normal","Myeloids","cDC","Myeloid",129
+"Tumor","Myeloids","cDC","Myeloid",353
+"Normal","Myeloids","Pro-inflammatory","Myeloid",74
+"Tumor","Myeloids","Pro-inflammatory","Myeloid",2325
+"Normal","Myeloids","Proliferating","Myeloid",6
+"Tumor","Myeloids","Proliferating","Myeloid",165
+"Normal","Myeloids","SPP1+","Myeloid",156
+"Tumor","Myeloids","SPP1+","Myeloid",3096
+"Normal","Myeloids","Unknown","Myeloid",4
+"Tumor","Myeloids","Unknown","Myeloid",461
+"Normal","Stromal cells","Enteric glial cells","Other",282
+"Tumor","Stromal cells","Enteric glial cells","Other",23
+"Normal","Stromal cells","Lymphatic ECs","Other",80
+"Tumor","Stromal cells","Lymphatic ECs","Other",28
+"Tumor","Stromal cells","Proliferative ECs","Other",44
+"Normal","Stromal cells","Stalk-like ECs","Other",96
+"Tumor","Stromal cells","Stalk-like ECs","Other",342
+"Normal","Stromal cells","Tip-like ECs","Other",563
+"Tumor","Stromal cells","Tip-like ECs","Other",354
+"Normal","Stromal cells","Pericytes","Pericyte",92
+"Tumor","Stromal cells","Pericytes","Pericyte",353
+"Normal","Stromal cells","Smooth muscle cells","Smooth_muscle",123
+"Tumor","Stromal cells","Smooth muscle cells","Smooth_muscle",91
+"Normal","T cells","CD4+ T cells","T_NK",3325
+"Tumor","T cells","CD4+ T cells","T_NK",3980
+"Normal","T cells","CD8+ T cells","T_NK",1757
+"Tumor","T cells","CD8+ T cells","T_NK",4647
+"Normal","T cells","gamma delta T cells","T_NK",777
+"Tumor","T cells","gamma delta T cells","T_NK",219
+"Normal","T cells","NK cells","T_NK",163
+"Tumor","T cells","NK cells","T_NK",948
+"Normal","T cells","Regulatory T cells","T_NK",154
+"Tumor","T cells","Regulatory T cells","T_NK",2943
+"Normal","T cells","T follicular helper cells","T_NK",72
+"Tumor","T cells","T follicular helper cells","T_NK",548
+"Normal","T cells","T helper 17 cells","T_NK",17
+"Tumor","T cells","T helper 17 cells","T_NK",1961
+"Normal","T cells","Unknown","T_NK",111
+"Tumor","T cells","Unknown","T_NK",1493

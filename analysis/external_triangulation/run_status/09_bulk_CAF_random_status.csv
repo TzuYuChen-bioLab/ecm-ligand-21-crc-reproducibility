@@ -1,0 +1,2 @@
+step,status,detail,timestamp_utc
+"09_bulk_CAF_random","PASS","Step 09 v1.1; blank clinical tokens normalized to missing; complete-case n=471/373/98 and events=138/108/30; frozen-score reproduction passed; three CAF-adjusted models estimable; 10000/10000 matched random sets estimable; two-sided add-one empirical P = 0.83772.","2026-07-22 03:57:29 UTC"

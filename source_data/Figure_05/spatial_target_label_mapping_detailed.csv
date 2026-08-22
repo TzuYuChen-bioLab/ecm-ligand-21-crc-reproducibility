@@ -1,0 +1,15 @@
+"primary_label_column","primary_label","assigned_class","Freq","percent_within_class"
+"DeconvolutionLabel1","Tumor III","Epithelial",200544,37.11
+"DeconvolutionLabel1","Tumor II","Epithelial",122214,22.61
+"DeconvolutionLabel1","Goblet","Epithelial",117845,21.8
+"DeconvolutionLabel1","Tumor IV","Epithelial",59068,10.93
+"DeconvolutionLabel1","Enterocyte","Epithelial",31030,5.74
+"DeconvolutionLabel1","Tumor V","Epithelial",9176,1.7
+"DeconvolutionLabel1","Epithelial","Epithelial",335,0.06
+"DeconvolutionLabel1","Tumor I","Epithelial",240,0.04
+"DeconvolutionLabel1","CAF","Fibroblast",81492,68.25
+"DeconvolutionLabel1","Fibroblast","Fibroblast",16328,13.67
+"DeconvolutionLabel1","Pericytes","Fibroblast",11863,9.94
+"DeconvolutionLabel1","Myofibroblast","Fibroblast",6426,5.38
+"DeconvolutionLabel1","Proliferating Fibroblast","Fibroblast",3203,2.68
+"DeconvolutionLabel1","Vascular Fibroblast","Fibroblast",91,0.08

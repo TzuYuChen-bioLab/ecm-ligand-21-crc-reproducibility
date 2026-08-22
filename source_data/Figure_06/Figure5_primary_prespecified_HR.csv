@@ -1,0 +1,4 @@
+"analysis_label","cohort","HR","low","high","p_value","n","events","C_index_apparent","model_role"
+"Discovery primary","Discovery",1.24338399291067,1.02163690900748,1.51326145345358,0.0297387651543538,373,108,0.615005200818709,"PRIMARY"
+"Discovery stratified","Discovery",1.23462962864082,1.01328770891716,1.50432133588861,0.0365357662235989,373,108,0.563891178895301,"sensitivity: sex/stage-stratified"
+"Validation stratified","Validation",1.10770182236136,0.786968590063749,1.55915158845574,0.55757473605044,98,30,0.624497991967871,"sensitivity: sex/stage-stratified"

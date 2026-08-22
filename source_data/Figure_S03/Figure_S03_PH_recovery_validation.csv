@@ -1,0 +1,15 @@
+"model","term","PH_p_expected","PH_p_recovered","abs_delta"
+"GSE39582_Discovery_primary_prespecified","age",NA,0.498329924376217,NA
+"GSE39582_Discovery_primary_prespecified","GLOBAL",0.0611556513674906,0.0611556513674906,4.16333634234434e-17
+"GSE39582_Discovery_primary_prespecified","mmr",NA,0.201056432843919,NA
+"GSE39582_Discovery_primary_prespecified","score_z",0.354142914267892,0.354142914267892,1.66533453693773e-16
+"GSE39582_Discovery_primary_prespecified","sex",0.0011464026117242,0.00114640261172419,6.28837260041593e-18
+"GSE39582_Discovery_primary_prespecified","stage",NA,0.919751013943707,NA
+"GSE39582_Discovery_stratified_sensitivity","age",NA,0.626063905946858,NA
+"GSE39582_Discovery_stratified_sensitivity","GLOBAL",0.400735580042184,0.400735580042183,6.10622663543836e-16
+"GSE39582_Discovery_stratified_sensitivity","mmr",NA,0.325311862106446,NA
+"GSE39582_Discovery_stratified_sensitivity","score_z",0.247430123539204,0.247430123539204,8.32667268468867e-17
+"GSE39582_Validation_stratified_sensitivity","age",NA,0.465493756662654,NA
+"GSE39582_Validation_stratified_sensitivity","GLOBAL",0.357197126723817,0.357197126723816,9.99200722162641e-16
+"GSE39582_Validation_stratified_sensitivity","mmr",NA,0.128187609794374,NA
+"GSE39582_Validation_stratified_sensitivity","score_z",0.915006747875162,0.915006747875162,4.44089209850063e-16

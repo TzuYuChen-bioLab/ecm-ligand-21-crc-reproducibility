@@ -1,0 +1,8 @@
+evidence_id,analysis,success_rule,allowed_claim_if_success,claim_if_not_success,weight_points
+A,GSE144735 independent patients,all five tumor-core fibroblast differences are positive and exact paired sensitivities are reported,directionally concordant in a small independent paired cohort,not directionally concordant in the independent cohort,4
+B,GSE92945 isolated fibroblasts,Cancer-versus-Normal ECM score positive and P<0.05,fibroblast-intrinsic association,directionally evaluated but not statistically supported,3
+C,GSE280315 spatial,"positive within-specimen rho persists under 8x8, 12x12, and 16x16 toroidal shifts; no across-specimen pooling",positive within-specimen spatial concordance with autocorrelation qualification,spatial evidence was inconsistent or non-confirmatory,4
+D,GSE160686 TGFb perturbation,ECM score decreases in at least 2 of 3 patient-level contrasts,directionally compatible but non-confirmatory perturbation response,no consistent perturbation response,4
+E,ECM proteomics,at least 10 signature proteins detected and signed enrichment is reported without cherry-picking,supported by independent ECM proteomics,protein-level coverage or direction was limited,3
+F,GSE39582 CAF-adjusted model,score HR>1 and likelihood-ratio P<0.05 after non-overlapping CAF proxy,adds information beyond a CAF abundance proxy,did not show detectable incremental information beyond the modeled CAF proxy,3
+G,matched random gene sets,empirical P<0.05 for the observed clinical statistic,outperformed matched random gene sets,did not outperform matched random gene sets,3

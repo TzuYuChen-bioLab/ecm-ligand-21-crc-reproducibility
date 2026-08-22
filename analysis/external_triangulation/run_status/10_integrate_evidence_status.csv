@@ -1,0 +1,2 @@
+step,status,detail,timestamp_utc
+"10_integrate_evidence","PASS","Graded evidence ledger generated; internal planning score 86/100; de novo experimental validation: no; journal-fit score excluded from manuscript figure.","2026-07-22 06:31:57 UTC"

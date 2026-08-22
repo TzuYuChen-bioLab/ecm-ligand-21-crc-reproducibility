@@ -1,0 +1,7 @@
+"analysis","section","n_fibroblast_bins","spearman_rho","one_sided_permutation_p"
+"Primary broad definition","P1CRC",35514,0.39756382604134,0.000999000999000999
+"Primary broad definition","P2CRC",48178,0.338635999905077,0.000999000999000999
+"Primary broad definition","P5CRC",35711,0.64610757719666,0.000999000999000999
+"Strict exclusion of pericytes","P1CRC",32149,0.403384412576665,0.000999000999000999
+"Strict exclusion of pericytes","P2CRC",44970,0.333037641212927,0.000999000999000999
+"Strict exclusion of pericytes","P5CRC",30421,0.636019900010268,0.000999000999000999

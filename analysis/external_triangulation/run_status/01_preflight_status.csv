@@ -1,0 +1,2 @@
+step,status,detail,timestamp_utc
+"01_preflight","PASS","All core/high-priority files and frozen resources are present.","2026-07-21 08:56:12 UTC"

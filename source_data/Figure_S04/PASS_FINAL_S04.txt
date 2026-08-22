@@ -1,0 +1,2 @@
+all_exact_final_effect_gates=TRUE
+output_dir=source_data/Figure_S04

@@ -1,0 +1,3 @@
+analysis,n_specimens,positive_specimens,median_bin_level_rho,hypothetical_one_sided_sign_p_if_independent,inference_status
+Primary broad definition,3,3,0.39756382604134,0.125,"Descriptive only: specimen independence was not established; the sign-test P value is an illustrative upper-level check, not a valid patient-level test."
+Strict exclusion of pericytes,3,3,0.403384412576665,0.125,"Descriptive only: specimen independence was not established; the sign-test P value is an illustrative upper-level check, not a valid patient-level test."

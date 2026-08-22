@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated manuscript."
+title: "Functional Decomposition and Cross-Context Evaluation of a 21-Gene Extracellular Matrix Score in Colorectal Cancer"
+type: software
+version: 1.0.0
+date-released: 2026-08-22
+license: MIT
+authors:
+  - family-names: Chen
+    given-names: Tzu-Yu
+    affiliation: "Ningbo No. 2 Hospital; Qingdao Institute of Bioenergy and Bioprocess Technology, Chinese Academy of Sciences"
+  - family-names: Cai
+    given-names: Yannan
+    affiliation: "The Affiliated Women’s and Children’s Hospital of Ningbo University"
+  - family-names: Cai
+    given-names: Ting
+    affiliation: "Ningbo No. 2 Hospital"
+keywords:
+  - colorectal cancer
+  - extracellular matrix
+  - single-cell RNA sequencing
+  - spatial transcriptomics
+  - reproducible research
+repository-code: "https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility"

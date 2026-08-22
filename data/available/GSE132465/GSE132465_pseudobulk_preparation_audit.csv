@@ -1,0 +1,2 @@
+"dataset","source_rds","assay","patient_column","condition_column","broad_celltype_column","subtype_column","annotation_strategy","minimum_cells","source_cells","retained_cells","pseudobulk_samples","genes","retained_fibroblast_cells","fibroblast_samples","tumor_fibroblast_samples","normal_fibroblast_samples","paired_fibroblast_patients"
+"GSE132465","PROJECT_ROOT","RNA","Patient","Class","Cell_type","Cell_subtype","Cell_type; refine Stromal cells with Cell_subtype",20,63689,61402,164,25655,3392,24,15,9,7

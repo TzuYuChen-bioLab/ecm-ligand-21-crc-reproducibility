@@ -1,0 +1,11 @@
+"item","value"
+"Figure3 epithelial-receiver axes displayed",40
+"Figure3 displayed axes meeting paired-donor FDR < 0.10",0
+"Figure3 minimum paired-donor FDR among displayed axes",0.348682767854509
+"Figure4 locked signature genes",21
+"Figure4 locked genes with NicheNet activity estimate",6
+"Figure4 activity-estimated genes with donor-supported CellChat edge",0
+"Figure4 NicheNet ligands displayed",19
+"Figure4 displayed NicheNet ligands with donor support",0
+"Figure4 minimum displayed NicheNet AUROC",0.517524441386754
+"Figure4 maximum displayed NicheNet AUROC",0.540287340431658

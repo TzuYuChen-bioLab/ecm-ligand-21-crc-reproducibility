@@ -1,0 +1,2 @@
+"input_file","condition_column","inference_mode","plotting_method","CellChat_netVisual_diffInteraction_used","reason"
+"external_input/GSE132465_CMT_communication_ready_seurat.rds",NA,"reused_saved_CellChat_objects","direct_igraph_from_machine_readable_source",FALSE,"CellChat 1.6.1 netVisual_diffInteraction plot wrapper is incompatible with the installed igraph version; biological CellChat inference and exported matrices are unaffected."

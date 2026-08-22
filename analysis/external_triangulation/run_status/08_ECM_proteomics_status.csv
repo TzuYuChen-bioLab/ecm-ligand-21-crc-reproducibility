@@ -1,0 +1,2 @@
+step,status,detail,timestamp_utc
+"08_ECM_proteomics","PASS","19/21 locked proteins detected (90.5%); 32 tissue channels collapsed to 24 tissues; 21 source-eligible tissues; strict paired analysis descriptive for SEV13/SEV14; SEV09 retained only as a flagged sensitivity.","2026-07-22 02:36:52 UTC"

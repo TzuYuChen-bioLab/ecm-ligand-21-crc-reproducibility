@@ -1,0 +1,3 @@
+analysis_scope,n_pairs,patients,mean_difference,median_difference,minimum_difference,maximum_difference,patients_with_increase,patients_with_decrease,P_value,inference_note
+"strict_source_aligned_pairs",2,"SEV13;SEV14",-0.96645624212966,-0.96645624212966,-1.29561110510555,-0.637301379153775,0,2,NA,"descriptive paired differences only; sample size is insufficient for a confirmatory P value; all included tissues are source-eligible"
+"all_three_pairs_flagged_sensitivity",3,"SEV09;SEV13;SEV14",-0.899098709988028,-0.764383645704763,-1.29561110510555,-0.637301379153775,0,3,NA,"descriptive paired differences only; sample size is insufficient for a confirmatory P value; SEV09 Normal tissue was excluded by the source study because of stent insertion"

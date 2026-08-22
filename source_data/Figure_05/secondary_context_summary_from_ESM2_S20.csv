@@ -1,0 +1,10 @@
+dataset,contrast,CRC8_delta,CRC9_delta,mean_delta,role,program
+GSE162561,S_ASC_vs_Control,-0.079148642328909,0.0877943244843421,0.00432284107771655,descriptive,
+GSE162561,V_ASC_vs_Control,0.202138151621793,0.277921295091141,0.240029723356467,descriptive,
+GSE162561,V_ASC_vs_S_ASC,0.281286793950702,0.190126970606799,0.23570688227875,descriptive,
+GSE155343,NF_after_HT29_minus_NF_mono,,,0.123937518782521,descriptive,ECM_LIGAND_21
+GSE155343,NF_after_SW480_minus_NF_mono,,,0.123490765559783,descriptive,ECM_LIGAND_21
+GSE155343,CAF1_minus_NF_mono,,,0.266733505759113,descriptive,ECM_LIGAND_21
+GSE155343,CAF2_minus_NF_mono,,,-0.114280056064762,descriptive,ECM_LIGAND_21
+GSE155343,HT29_after_coculture_minus_HT29_mono,,,-0.522865615676089,descriptive,epithelial_target
+GSE155343,SW480_after_coculture_minus_SW480_mono,,,-0.276359683953669,descriptive,epithelial_target

@@ -1,0 +1,4 @@
+"term","estimate","std.error","statistic","p.value","conf.low","conf.high","model","model_status","n","n_event","concordance","cohort","endpoint","model_role"
+"score_z",1.52137328213306,0.152584742876921,2.75003512242529,0.0059588877250177,1.12812030575708,2.05171084305144,"GSE14333_adjusted_age_sex_stage","estimated",226,50,0.712981003409644,"GSE14333","DFS","secondary adjusted for age, sex, stage"
+"score_z",1.48338086010769,0.166129261935192,2.37359657730026,0.017615785543582,1.07113247577212,2.05429190684155,"GSE17536_adjusted_age_sex_stage","estimated",145,36,0.707011463609704,"GSE17536","DFS","secondary adjusted for age, sex, stage"
+"score_z",1.49806558212133,0.25197119323541,1.60405107716571,0.108702794396615,0.914223872931025,2.45476032160651,"GSE33113_adjusted_age_sex","estimated",89,18,0.631496062992126,"GSE33113","RFS","secondary adjusted for age, sex"

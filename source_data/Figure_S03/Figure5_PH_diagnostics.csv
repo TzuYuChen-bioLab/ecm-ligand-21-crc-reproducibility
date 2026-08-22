@@ -1,0 +1,8 @@
+"chisq","df","p","term","model","file","PH_p","analysis_label"
+0.858556664145562,1,0.354142914267892,"score_z","GSE39582_Discovery_primary_prespecified","GSE39582_Discovery_primary_prespecified_PH_test.csv",0.354142914267892,"Discovery primary"
+10.5747904808187,1,0.0011464026117242,"sex","GSE39582_Discovery_primary_prespecified","GSE39582_Discovery_primary_prespecified_PH_test.csv",0.0011464026117242,"Discovery primary"
+13.4841064280831,7,0.0611556513674906,"GLOBAL","GSE39582_Discovery_primary_prespecified","GSE39582_Discovery_primary_prespecified_PH_test.csv",0.0611556513674906,"Discovery primary"
+1.33775581079797,1,0.247430123539204,"score_z","GSE39582_Discovery_stratified_sensitivity","GSE39582_Discovery_stratified_sensitivity_PH_test.csv",0.247430123539204,"Discovery stratified"
+2.94148325503685,3,0.400735580042184,"GLOBAL","GSE39582_Discovery_stratified_sensitivity","GSE39582_Discovery_stratified_sensitivity_PH_test.csv",0.400735580042184,"Discovery stratified"
+0.011390333478545,1,0.915006747875162,"score_z","GSE39582_Validation_stratified_sensitivity","GSE39582_Validation_stratified_sensitivity_PH_test.csv",0.915006747875162,"Validation stratified"
+3.23215815133708,3,0.357197126723817,"GLOBAL","GSE39582_Validation_stratified_sensitivity","GSE39582_Validation_stratified_sensitivity_PH_test.csv",0.357197126723817,"Validation stratified"

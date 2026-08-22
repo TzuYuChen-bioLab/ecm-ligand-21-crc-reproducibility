@@ -1,0 +1,136 @@
+"time_col","event_col","n","events"
+"sample","score_raw",90,9
+"sample","characteristics_ch1.4",90,19
+"sample","meta or recurrence within 3 years:ch1",89,18
+"sample","parsed_meta_or_recurrence_within_3_years",89,18
+"sample","score_z",85,26
+"score_raw","score_raw",47,3
+"score_raw","characteristics_ch1.4",47,13
+"score_raw","meta or recurrence within 3 years:ch1",46,12
+"score_raw","parsed_meta_or_recurrence_within_3_years",46,12
+"score_raw","score_z",46,14
+"title","score_raw",90,9
+"title","characteristics_ch1.4",90,19
+"title","meta or recurrence within 3 years:ch1",89,18
+"title","parsed_meta_or_recurrence_within_3_years",89,18
+"title","score_z",85,26
+"geo_accession","score_raw",90,9
+"geo_accession","characteristics_ch1.4",90,19
+"geo_accession","meta or recurrence within 3 years:ch1",89,18
+"geo_accession","parsed_meta_or_recurrence_within_3_years",89,18
+"geo_accession","score_z",85,26
+"status","score_raw",90,9
+"status","characteristics_ch1.4",90,19
+"status","meta or recurrence within 3 years:ch1",89,18
+"status","parsed_meta_or_recurrence_within_3_years",89,18
+"status","score_z",85,26
+"submission_date","score_raw",90,9
+"submission_date","characteristics_ch1.4",90,19
+"submission_date","meta or recurrence within 3 years:ch1",89,18
+"submission_date","parsed_meta_or_recurrence_within_3_years",89,18
+"submission_date","score_z",85,26
+"last_update_date","score_raw",90,9
+"last_update_date","characteristics_ch1.4",90,19
+"last_update_date","meta or recurrence within 3 years:ch1",89,18
+"last_update_date","parsed_meta_or_recurrence_within_3_years",89,18
+"last_update_date","score_z",85,26
+"channel_count","score_raw",90,9
+"channel_count","characteristics_ch1.4",90,19
+"channel_count","meta or recurrence within 3 years:ch1",89,18
+"channel_count","parsed_meta_or_recurrence_within_3_years",89,18
+"channel_count","score_z",85,26
+"characteristics_ch1.2","score_raw",90,9
+"characteristics_ch1.2","characteristics_ch1.4",90,19
+"characteristics_ch1.2","meta or recurrence within 3 years:ch1",89,18
+"characteristics_ch1.2","parsed_meta_or_recurrence_within_3_years",89,18
+"characteristics_ch1.2","score_z",85,26
+"characteristics_ch1.4","score_raw",90,9
+"characteristics_ch1.4","characteristics_ch1.4",90,19
+"characteristics_ch1.4","meta or recurrence within 3 years:ch1",89,18
+"characteristics_ch1.4","parsed_meta_or_recurrence_within_3_years",89,18
+"characteristics_ch1.4","score_z",85,26
+"characteristics_ch1.5","score_raw",90,9
+"characteristics_ch1.5","characteristics_ch1.4",90,19
+"characteristics_ch1.5","meta or recurrence within 3 years:ch1",89,18
+"characteristics_ch1.5","parsed_meta_or_recurrence_within_3_years",89,18
+"characteristics_ch1.5","score_z",85,26
+"label_protocol_ch1","score_raw",90,9
+"label_protocol_ch1","characteristics_ch1.4",90,19
+"label_protocol_ch1","meta or recurrence within 3 years:ch1",89,18
+"label_protocol_ch1","parsed_meta_or_recurrence_within_3_years",89,18
+"label_protocol_ch1","score_z",85,26
+"taxid_ch1","score_raw",90,9
+"taxid_ch1","characteristics_ch1.4",90,19
+"taxid_ch1","meta or recurrence within 3 years:ch1",89,18
+"taxid_ch1","parsed_meta_or_recurrence_within_3_years",89,18
+"taxid_ch1","score_z",85,26
+"hyb_protocol","score_raw",90,9
+"hyb_protocol","characteristics_ch1.4",90,19
+"hyb_protocol","meta or recurrence within 3 years:ch1",89,18
+"hyb_protocol","parsed_meta_or_recurrence_within_3_years",89,18
+"hyb_protocol","score_z",85,26
+"scan_protocol","score_raw",90,9
+"scan_protocol","characteristics_ch1.4",90,19
+"scan_protocol","meta or recurrence within 3 years:ch1",89,18
+"scan_protocol","parsed_meta_or_recurrence_within_3_years",89,18
+"scan_protocol","score_z",85,26
+"description","score_raw",90,9
+"description","characteristics_ch1.4",90,19
+"description","meta or recurrence within 3 years:ch1",89,18
+"description","parsed_meta_or_recurrence_within_3_years",89,18
+"description","score_z",85,26
+"data_processing","score_raw",90,9
+"data_processing","characteristics_ch1.4",90,19
+"data_processing","meta or recurrence within 3 years:ch1",89,18
+"data_processing","parsed_meta_or_recurrence_within_3_years",89,18
+"data_processing","score_z",85,26
+"platform_id","score_raw",90,9
+"platform_id","characteristics_ch1.4",90,19
+"platform_id","meta or recurrence within 3 years:ch1",89,18
+"platform_id","parsed_meta_or_recurrence_within_3_years",89,18
+"platform_id","score_z",85,26
+"contact_address","score_raw",90,9
+"contact_address","characteristics_ch1.4",90,19
+"contact_address","meta or recurrence within 3 years:ch1",89,18
+"contact_address","parsed_meta_or_recurrence_within_3_years",89,18
+"contact_address","score_z",85,26
+"contact_zip/postal_code","score_raw",90,9
+"contact_zip/postal_code","characteristics_ch1.4",90,19
+"contact_zip/postal_code","meta or recurrence within 3 years:ch1",89,18
+"contact_zip/postal_code","parsed_meta_or_recurrence_within_3_years",89,18
+"contact_zip/postal_code","score_z",85,26
+"supplementary_file","score_raw",90,9
+"supplementary_file","characteristics_ch1.4",90,19
+"supplementary_file","meta or recurrence within 3 years:ch1",89,18
+"supplementary_file","parsed_meta_or_recurrence_within_3_years",89,18
+"supplementary_file","score_z",85,26
+"data_row_count","score_raw",90,9
+"data_row_count","characteristics_ch1.4",90,19
+"data_row_count","meta or recurrence within 3 years:ch1",89,18
+"data_row_count","parsed_meta_or_recurrence_within_3_years",89,18
+"data_row_count","score_z",85,26
+"age at diagnosis:ch1","score_raw",90,9
+"age at diagnosis:ch1","characteristics_ch1.4",90,19
+"age at diagnosis:ch1","meta or recurrence within 3 years:ch1",89,18
+"age at diagnosis:ch1","parsed_meta_or_recurrence_within_3_years",89,18
+"age at diagnosis:ch1","score_z",85,26
+"time to meta or recurrence:ch1","score_raw",90,9
+"time to meta or recurrence:ch1","characteristics_ch1.4",90,19
+"time to meta or recurrence:ch1","meta or recurrence within 3 years:ch1",89,18
+"time to meta or recurrence:ch1","parsed_meta_or_recurrence_within_3_years",89,18
+"time to meta or recurrence:ch1","score_z",85,26
+"parsed_age_at_diagnosis","score_raw",90,9
+"parsed_age_at_diagnosis","characteristics_ch1.4",90,19
+"parsed_age_at_diagnosis","meta or recurrence within 3 years:ch1",89,18
+"parsed_age_at_diagnosis","parsed_meta_or_recurrence_within_3_years",89,18
+"parsed_age_at_diagnosis","score_z",85,26
+"parsed_time_to_meta_or_recurrence","score_raw",90,9
+"parsed_time_to_meta_or_recurrence","characteristics_ch1.4",90,19
+"parsed_time_to_meta_or_recurrence","meta or recurrence within 3 years:ch1",89,18
+"parsed_time_to_meta_or_recurrence","parsed_meta_or_recurrence_within_3_years",89,18
+"parsed_time_to_meta_or_recurrence","score_z",85,26
+"score_z","score_raw",47,3
+"score_z","characteristics_ch1.4",47,13
+"score_z","meta or recurrence within 3 years:ch1",46,12
+"score_z","parsed_meta_or_recurrence_within_3_years",46,12
+"score_z","score_z",46,14

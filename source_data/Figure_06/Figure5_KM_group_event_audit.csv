@@ -1,0 +1,9 @@
+cohort_split,risk_group_frozen,event,n
+Discovery,High,0,136
+Discovery,High,1,69
+Discovery,Low,0,159
+Discovery,Low,1,46
+Validation,High,0,48
+Validation,High,1,21
+Validation,Low,0,31
+Validation,Low,1,9

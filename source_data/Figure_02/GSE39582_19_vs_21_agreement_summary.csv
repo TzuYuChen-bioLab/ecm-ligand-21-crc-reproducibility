@@ -1,0 +1,11 @@
+metric,value
+"Pearson correlation, score19 vs score21",0.9956914546564064
+"Spearman correlation, score19 vs score21",0.99539263267587
+Median absolute standardized score difference,0.05869023319873412
+95th percentile absolute standardized score difference,0.1822352410873519
+Discovery-median high/low group agreement,0.9633911368015414
+Cohen kappa for high/low group agreement,0.9265688179970064
+Reconstructed score21 vs archived score Pearson correlation,0.9999999999999998
+Reconstructed-to-archived score slope,0.9999999999999991
+Reconstructed-to-archived score intercept,1.329084576720281e-15
+Maximum absolute reconstructed-vs-archived score difference,6.661338147750939e-15

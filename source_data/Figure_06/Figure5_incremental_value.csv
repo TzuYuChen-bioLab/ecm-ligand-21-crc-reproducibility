@@ -1,0 +1,4 @@
+"cohort_split","analysis_type","status","reason","n","events","clinical_C_index","clinical_plus_score_C_index","delta_C_index_apparent","LRT_chisq","LRT_df","LRT_p"
+"Discovery","prespecified_primary","estimated","both nested models passed estimability checks",373,108,0.607858269301748,0.615005200818709,0.00714693151696133,4.63013794991548,1,0.0314150376730463
+"Discovery","stratified_sensitivity","estimated","both nested models passed estimability checks",373,108,0.527287716405606,0.563891178895301,0.0366034624896949,4.29736422565804,1,0.0381714888651093
+"Validation","stratified_sensitivity","estimated","both nested models passed estimability checks",98,30,0.625502008032129,0.624497991967871,-0.00100401606425704,0.343460764272777,1,0.557838382449041

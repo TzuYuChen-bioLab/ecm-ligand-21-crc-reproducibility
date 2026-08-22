@@ -1,0 +1,22 @@
+gene,in_Cho_2023_CRC_CAF_ECM_or_ligand_map,additional_gene_level_CRC_context_url,evidence_role
+COL1A1,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+COL1A2,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+COL4A1,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+COL4A2,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+COL4A5,FALSE,https://pmc.ncbi.nlm.nih.gov/articles/PMC1606532/,Gene-level CRC context only; does not provide a unified panel-selection rule or establish tumor-upregulation
+COL6A1,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+COL6A2,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+COL6A3,FALSE,https://pubmed.ncbi.nlm.nih.gov/26338966/,Gene-level CRC context only; does not provide a unified panel-selection rule
+FN1,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+LAMA4,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+LAMA5,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+LAMB1,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+LAMB2,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+LAMC1,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+THBS1,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+THBS2,FALSE,https://www.nature.com/articles/s41416-025-02964-z,Gene-level CRC fibroblast/ECM context only; does not provide a unified panel-selection rule
+HSPG2,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+TNC,FALSE,https://link.springer.com/article/10.1186/s12935-020-01188-w,Gene-level CRC context only; does not provide a unified panel-selection rule
+TNXB,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule
+PTN,FALSE,https://pubmed.ncbi.nlm.nih.gov/22065111/,Gene-level CRC context only; does not establish a panel-level mechanism or necessity
+MDK,TRUE,,Descriptive literature concordance only; the study includes datasets also used in the manuscript and is not an independent validation or historical selection rule

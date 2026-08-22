@@ -1,0 +1,9 @@
+results/generated/
+redrawn_figures/
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+*.tmp
+*.log

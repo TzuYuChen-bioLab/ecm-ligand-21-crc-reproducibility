@@ -1,0 +1,28 @@
+# License overview
+
+This is a mixed-license repository. No single license applies to every file.
+
+1. Original source code
+
+   Original `*.R` and `*.py` source-code files in `analysis/` and
+   `source_data/` are licensed under the MIT License. See `LICENSE-CODE`.
+
+2. Author-generated content
+
+   To the extent that the authors hold the applicable rights, original
+   documentation, annotations, tables, figures, supplementary materials,
+   manifests, and the authors' selection and arrangement of derived results
+   are licensed under the Creative Commons Attribution 4.0 International
+   License (CC BY 4.0). See `LICENSE-DATA`.
+
+3. Third-party and third-party-derived data
+
+   The licenses above do not relicense underlying third-party data. In
+   particular, files in `data/available/` and underlying third-party data
+   values represented in derived outputs remain subject to the terms,
+   notices, and rights associated with their original repositories and
+   submitters. See `THIRD_PARTY_DATA_NOTICE.md`, `DATA_INVENTORY.md`, and
+   `DATASET_ACCESSIONS_AND_LINKS.md`.
+
+When using this repository, cite both the associated manuscript and the
+version-specific Zenodo record when available.

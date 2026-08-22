@@ -1,0 +1,5 @@
+module,n_genes_ECM_LIGAND_21,n_genes_ECM_CORE_19,interpretation
+"Adhesive_matricellular",5,5,"Represented in the structural 19-gene core"
+"Basement_membrane",9,9,"Represented in the structural 19-gene core"
+"ECM_linked_secreted_factor",2,0,"Added only by PTN/MDK; functional-scope extension, not a demonstrated performance gain"
+"Interstitial_collagen",5,5,"Represented in the structural 19-gene core"

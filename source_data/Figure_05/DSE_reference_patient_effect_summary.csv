@@ -1,0 +1,2 @@
+"n_pairs","comparison","mean_difference","ci_low","ci_high","p_value","sign_concordance","expected_direction","patients_with_decrease","analysis_role","sign_concordance_definition"
+3,"DSE_reference minus Control",-0.282363803534462,-0.783514336737408,0.218786729668483,0.136231744992316,1,"negative",3,"separately labelled DSE concordance sensitivity; not pooled into primary","Fraction of paired-patient deltas below zero, matching the prespecified negative direction."

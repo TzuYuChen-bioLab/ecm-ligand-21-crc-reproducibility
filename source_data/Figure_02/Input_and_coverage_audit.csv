@@ -1,0 +1,3 @@
+dataset,count_file,metadata_file,raw_genes,retained_genes,pseudobulk_samples,tumor_normal_fibroblast_pairs,tumor_fibroblast_specificity_patients,core19_coverage,ligand21_coverage,background_type
+"GSE132465","GSE132465_pseudobulk_counts.csv.gz","GSE132465_pseudobulk_metadata.csv",24101,14479,164,7,15,0.947368421052632,0.952380952380952,"expression_detection_matched_transcriptome"
+"GSE144735","GSE144735_pseudobulk_counts.csv.gz","GSE144735_pseudobulk_metadata.csv",30191,14917,101,5,5,1,1,"expression_detection_matched_transcriptome"
