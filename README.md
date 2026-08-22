@@ -1,5 +1,7 @@
 # ECM_LIGAND_21 CRC reproducibility release
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22052359.svg)](https://doi.org/10.5281/zenodo.22052359)
+
 This repository supports the analyses reported in the manuscript **“Functional Decomposition and Cross-Context Evaluation of a 21-Gene Extracellular Matrix Score in Colorectal Cancer.”** It is organized for direct use in GitHub and for versioned archival through Zenodo, and contains no user-specific absolute paths.
 
 ## What is included
@@ -23,7 +25,7 @@ The original delivery archives have been unpacked and normalized into one browsa
 | `source_data/` | Figure-source archive, with user-specific absolute paths replaced by package-relative paths |
 | `supplementary/` | `Supplementary_Tables_IJMS_SUBMISSION_READY.xlsx` |
 
-This repository was published as GitHub release `v1.0.0` and archived through the GitHub–Zenodo integration at https://doi.org/10.5281/zenodo.22052359                                                                                          . Separate copies of the original ZIP archives are not attached to the release because doing so would duplicate the same content and make the authoritative version ambiguous.
+This repository was published as GitHub release `v1.0.0` and archived through the GitHub–Zenodo integration at https://doi.org/10.5281/zenodo.22052359. Separate copies of the original ZIP archives are not attached to the release because doing so would duplicate the same content and make the authoritative version ambiguous.
 
 The archive does **not** claim that every cell-level GEO raw matrix, the complete GSE39582 series matrix, or raw mass-spectrometry file is redistributed here. Those public inputs remain available at their original repositories and are listed in `DATASET_ACCESSIONS_AND_LINKS.md`. The supplied 0.96-MB GSE39582 cache failed the analysis script's 10-MB early integrity guard and was therefore excluded rather than mislabeled as usable raw data; see `DATA_INVENTORY.md`.
 
@@ -58,7 +60,7 @@ No personal path is embedded. The core pipeline reads `CRC_PROJECT_ROOT`; the tr
 
 ## Integrity and software
 
-`FILE_MANIFEST.csv` and `SHA256SUMS.txt` cover all packaged files. Module-specific session records are preserved because the uploaded analyses were not produced under one common lockfile. Review `SOFTWARE_ENVIRONMENTS.md` before rerunning and archive any newly resolved package environment separately.
+`FILE_MANIFEST.csv` and `SHA256SUMS.txt` describe the frozen `v1.0.0` archive. Documentation-only commits made to `main` after that release, including DOI-link updates, are not part of the frozen checksum set. Module-specific session records are preserved because the uploaded analyses were not produced under one common lockfile. Review `SOFTWARE_ENVIRONMENTS.md` before rerunning and archive any newly resolved package environment separately.
 
 ## Licensing
 
@@ -70,7 +72,6 @@ This repository uses scoped mixed licensing:
 
 Zenodo records this repository as software under the MIT License. File-specific CC BY 4.0 terms and third-party-data exclusions remain governed by `LICENSE-DATA`, `LICENSE`, and `THIRD_PARTY_DATA_NOTICE.md`.
 
-
 ## Repository metadata
 
-``CITATION.cff` provides citation metadata for this release. The development repository is available at https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility. The version-specific archival release is available at https://doi.org/10.5281/zenodo.22052359                                                                                                                                                                  . The final article DOI will be added when available.
+`CITATION.cff` provides citation metadata for this release. The development repository is available at https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility. The version-specific archival release is available at https://doi.org/10.5281/zenodo.22052359. The final article DOI will be added when available.
