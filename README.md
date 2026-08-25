@@ -1,77 +1,304 @@
-# ECM_LIGAND_21 CRC reproducibility release
+# Functional Decomposition of an Author-Defined 21-Gene Extracellular Matrix Composite Characterizes Compartment-Associated Transcriptional Patterns in Colorectal Cancer
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22052359.svg)](https://doi.org/10.5281/zenodo.22052359)
+**Version-specific archive:** [Zenodo v1.0.0 — 10.5281/zenodo.22052359                                    ](https://doi.org/10.5281/zenodo.22052359)
+**GitHub release:** [v1.0.0](https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility/releases/tag/v1.0.0)
 
-This repository supports the analyses reported in the manuscript **“Functional Decomposition and Cross-Context Evaluation of a 21-Gene Extracellular Matrix Score in Colorectal Cancer.”** It is organized for direct use in GitHub and for versioned archival through Zenodo, and contains no user-specific absolute paths.
+## Overview
 
-## What is included
+This repository contains the reproducibility materials supporting the manuscript:
 
-- Complete supplied analysis scripts, organized by analytical role rather than draft history.
-- The processed, analysis-level pseudobulk inputs supplied for GSE132465 and GSE144735.
-- Analysis-ready GSE39582 recurrence tables and figure-source values supplied with this project.
-- Frozen gene-set and claim-control resources.
-- Session-information and run-status records.
-- Figure-source data and reconstruction audits for the main and supplementary figures.
-- The submission-ready supplementary tables workbook.
-- Dataset accession links for large public raw inputs that were not present in the uploaded archive.
+> **Functional Decomposition of an Author-Defined 21-Gene Extracellular Matrix Composite Characterizes Compartment-Associated Transcriptional Patterns in Colorectal Cancer**
 
-## Public-release mapping
+The study evaluates `ECM_LIGAND_21` as an author-defined, fixed, equally weighted 21-gene extracellular matrix research composite. Panel membership, gene weights, and module assignments were fixed before recurrence modeling.
 
-The original delivery archives have been unpacked and normalized into one browsable repository:
+The analyses examine:
 
-| Public repository path | Organized source material |
-| --- | --- |
-| `analysis/`, `data/`, `results/`, and reproducibility documentation | Reproducibility code and analysis-level data |
-| `source_data/` | Figure-source archive, with user-specific absolute paths replaced by package-relative paths |
-| `supplementary/` | `Supplementary_Tables_IJMS_SUBMISSION_READY.xlsx` |
+* the cellular and functional composition of the composite;
+* paired tumor–normal patterns in colorectal cancer transcriptomic cohorts;
+* fibroblast specificity relative to expression- and detection-matched gene panels;
+* spatial covariation between neighborhood extracellular matrix scores and epithelial target programs;
+* ligand–receptor, perturbational, and proteomic context;
+* the contribution of the 19-gene structural core and the `PTN`/`MDK` extension;
+* recurrence associations and their robustness to simpler extracellular matrix representations and correlated stromal features.
 
-This repository was published as GitHub release `v1.0.0` and archived through the GitHub–Zenodo integration at https://doi.org/10.5281/zenodo.22052359. Separate copies of the original ZIP archives are not attached to the release because doing so would duplicate the same content and make the authoritative version ambiguous.
+The repository is intended to support reproducibility of the reported analyses. It does not present `ECM_LIGAND_21` as a clinically validated biomarker.
 
-The archive does **not** claim that every cell-level GEO raw matrix, the complete GSE39582 series matrix, or raw mass-spectrometry file is redistributed here. Those public inputs remain available at their original repositories and are listed in `DATASET_ACCESSIONS_AND_LINKS.md`. The supplied 0.96-MB GSE39582 cache failed the analysis script's 10-MB early integrity guard and was therefore excluded rather than mislabeled as usable raw data; see `DATA_INVENTORY.md`.
+## Current release
 
-## Directory layout
+| Item                   | Value                                                                                                                       |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Release                | `v1.0.0`                                                                                                                    |
+| Release date           | 2026-08-22                                                                                                                  |
+| Resource type          | Software and analysis-level reproducibility materials                                                                       |
+| Version-specific DOI   | [10.5281/zenodo.22052359                                    ](https://doi.org/10.5281/zenodo.22052359)                      |
+| Development repository | [TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility](https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility) |
+| R version              | R 4.5.0                                                                                                                     |
+| Python version         | Python 3.12.13                                                                                                              |
+
+## Panel definition
+
+### ECM_LIGAND_21
+
+`ECM_LIGAND_21` contains the following 21 genes:
 
 ```text
-analysis/
-  core_single_cell/          GSE132465 single-cell, CellChat, NicheNet, bulk, and recurrence pipeline
-  external_triangulation/    GSE144735, GSE92945, spatial, perturbational, proteomic, and external analyses
-  module_recurrence/         Four-module GSE39582 Cox, bootstrap, Validation, and CAF analyses
-  editorial_robustness/      Exact small-sample, small-k, spatial-shift, and 19-vs-21 sensitivities
-  biological_coherence/      Outcome-blind pseudobulk specificity and matched-random audit
-data/available/               Verified analysis inputs supplied with this project
-source_data/                  Figure-source values, reconstruction files, and audits
-supplementary/                Submission-ready supplementary tables workbook
-results/generated/            Created at runtime; not pre-populated
+COL1A1, COL1A2, COL4A1, COL4A2, COL4A5,
+COL6A1, COL6A2, COL6A3, FN1, LAMA4,
+LAMA5, LAMB1, LAMB2, LAMC1, THBS1,
+THBS2, HSPG2, TNC, TNXB, PTN, MDK
 ```
 
-## Reproduction sequence
+The genes are organized into four non-overlapping functional modules:
 
-1. Obtain the public inputs listed in `DATASET_ACCESSIONS_AND_LINKS.md` and place them under the dataset paths expected by `analysis/core_single_cell/scripts/config.R` and `analysis/external_triangulation/config.R`.
-2. Run `analysis/core_single_cell/run_pipeline.R` for the core single-cell/communication workflow.
-3. Run `analysis/external_triangulation/scripts/00_package_check.R` through `12_CBC_reproducibility_transportability_specificity_summary.R` in numerical order.
-4. Run `analysis/biological_coherence/scripts/02_run_provenance_audit.R` with the two included pseudobulk input folders.
-5. Download the complete GSE39582 series matrix to `data/available/GSE39582/GSE39582_series_matrix.txt.gz`; then run `analysis/module_recurrence/scripts/RUN_GSE39582_MODULE_COX_AND_BOOTSTRAP_DELTA_CINDEX.R`, followed by the CAF/Validation continuation script.
-6. Run the scripts in `analysis/editorial_robustness/` for exact and small-k sensitivities.
-7. Use the files under `source_data/` to audit or redraw the corresponding main and supplementary figures.
+| Module | Functional category                    | Genes                                                                              |
+| ------ | -------------------------------------- | ---------------------------------------------------------------------------------- |
+| M1     | Interstitial and pericellular collagen | `COL1A1`, `COL1A2`, `COL6A1`, `COL6A2`, `COL6A3`                                   |
+| M2     | Basement-membrane components           | `COL4A1`, `COL4A2`, `COL4A5`, `LAMA4`, `LAMA5`, `LAMB1`, `LAMB2`, `LAMC1`, `HSPG2` |
+| M3     | Matrix-organizing glycoproteins        | `FN1`, `THBS1`, `THBS2`, `TNC`, `TNXB`                                             |
+| M4     | Matrisome-associated secreted factors  | `PTN`, `MDK`                                                                       |
 
-## Path configuration
+`ECM_CORE_19` consists of M1–M3. `ECM_LIGAND_21` consists of `ECM_CORE_19` plus the M4 genes `PTN` and `MDK`.
 
-No personal path is embedded. The core pipeline reads `CRC_PROJECT_ROOT`; the triangulation pipeline reads `CRC_TRIANGULATION_ROOT`; the module pipeline uses its own package-relative GSE39582 input by default and accepts `CBC_REPRO_ROOT` for generated outputs.
+Human Matrisome Project/NABA annotations were used to assign the functional categories applied in the study. MatrisomeDB 2.0 was used as an additional annotation cross-reference and was not used to select or reselect panel members.
 
-## Integrity and software
+## Repository contents
 
-`FILE_MANIFEST.csv` and `SHA256SUMS.txt` describe the frozen `v1.0.0` archive. Documentation-only commits made to `main` after that release, including DOI-link updates, are not part of the frozen checksum set. Module-specific session records are preserved because the uploaded analyses were not produced under one common lockfile. Review `SOFTWARE_ENVIRONMENTS.md` before rerunning and archive any newly resolved package environment separately.
+| Path or file                      | Description                                                                    |
+| --------------------------------- | ------------------------------------------------------------------------------ |
+| `analysis/`                       | R and Python scripts used for the reported analyses                            |
+| `data/available/`                 | Processed, analysis-level inputs that can be redistributed                     |
+| `source_data/`                    | Figure-source values, reconstruction materials, and related audits             |
+| `supplementary/`                  | Submission-ready supplementary tables and supporting materials                 |
+| `CITATION.cff`                    | Machine-readable citation metadata                                             |
+| `DATASET_ACCESSIONS_AND_LINKS.md` | Public dataset accessions, source links, and usage notes                       |
+| `DATA_INVENTORY.md`               | Inventory of included and externally accessed data objects                     |
+| `FILE_MANIFEST.csv`               | File-level manifest and content descriptions                                   |
+| `SOFTWARE_ENVIRONMENTS.md`        | R, Python, package, and software-environment information                       |
+| `SHA256SUMS.txt`                  | SHA-256 checksums for integrity verification                                   |
+| `THIRD_PARTY_DATA_NOTICE.md`      | Terms and restrictions applying to third-party data                            |
+| `LICENSE`                         | General repository licensing notice                                            |
+| `LICENSE-CODE`                    | License covering eligible author-generated source code                         |
+| `LICENSE-DATA`                    | License covering eligible author-generated documentation and derived materials |
+
+## Included materials
+
+The versioned release includes:
+
+* reproducibility code for the reported analyses;
+* processed, analysis-level pseudobulk inputs for `GSE132465` and `GSE144735`;
+* analysis-ready recurrence tables and figure-source values for `GSE39582`;
+* fixed gene-set definitions and module assignments;
+* sample, donor, and dataset mapping audits;
+* random seeds and frozen computational resources;
+* session-information and software-environment records;
+* matched-panel outputs and balance diagnostics;
+* model, bootstrap, overlap, and donor-support diagnostics;
+* figure-source data and reconstruction audits;
+* submission-ready supplementary tables;
+* dataset accession links for large public inputs that are not redistributed.
+
+## Public data sources
+
+Public transcriptomic, spatial, perturbational, proteomic, and clinical data used in the study remain available from their original repositories.
+
+### Transcriptomic and spatial data
+
+* `GSE132465`
+* `GSE144735`
+* `GSE92945`
+* `GSE280315`, within SuperSeries `GSE280318`
+* `GSE160686`
+* `GSE162561`
+* `GSE155343`
+* `GSE39582`
+* `GSE38832`
+* `GSE14333`
+* `GSE17536`
+* `GSE17537`
+* `GSE33113`
+
+These datasets are available through the [NCBI Gene Expression Omnibus](https://www.ncbi.nlm.nih.gov/geo/).
+
+### Proteomic data
+
+The decellularized extracellular matrix measurements were obtained from the author-normalized supplementary workbook associated with Lee et al. (2025).
+
+Associated mass-spectrometry data and search-result files are deposited through ProteomeXchange and MassIVE under:
+
+* `PXD037824`
+* `MSV000090604`
+
+Dataset-specific links, roles, and usage notes are provided in [`DATASET_ACCESSIONS_AND_LINKS.md`](DATASET_ACCESSIONS_AND_LINKS.md).
+
+## Getting started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility.git
+cd ecm-ligand-21-crc-reproducibility
+```
+
+Alternatively, download the archived `v1.0.0` release from:
+
+```text
+https://doi.org/10.5281/zenodo.22052359
+        
+        
+        
+        
+```
+
+### 2. Review the repository inventory
+
+Before running an analysis, review:
+
+* [`DATA_INVENTORY.md`](DATA_INVENTORY.md)
+* [`FILE_MANIFEST.csv`](FILE_MANIFEST.csv)
+* [`DATASET_ACCESSIONS_AND_LINKS.md`](DATASET_ACCESSIONS_AND_LINKS.md)
+* [`SOFTWARE_ENVIRONMENTS.md`](SOFTWARE_ENVIRONMENTS.md)
+
+These files identify the analysis-level inputs, externally accessed datasets, software requirements, and expected outputs.
+
+### 3. Verify file integrity
+
+On Linux or macOS, run:
+
+```bash
+sha256sum -c SHA256SUMS.txt
+```
+
+On Windows PowerShell, individual files can be checked with:
+
+```powershell
+Get-FileHash -Algorithm SHA256 <file_path>
+```
+
+Compare the resulting values with `SHA256SUMS.txt`.
+
+### 4. Prepare the software environment
+
+The analyses were conducted using:
+
+```text
+R 4.5.0
+Python 3.12.13
+```
+
+Exact package versions and session-information records are provided in [`SOFTWARE_ENVIRONMENTS.md`](SOFTWARE_ENVIRONMENTS.md) and the archived environment files.
+
+Run scripts from the repository root so that repository-relative paths resolve correctly. The public release contains no user-specific local absolute paths.
+
+### 5. Obtain externally hosted inputs when required
+
+Large third-party raw files are not redistributed in this repository. Download them from their original repositories using the accession numbers and links documented in [`DATASET_ACCESSIONS_AND_LINKS.md`](DATASET_ACCESSIONS_AND_LINKS.md).
+
+Do not replace the analysis-level files with differently processed versions unless the purpose is an explicit sensitivity or extension analysis.
+
+### 6. Run the analyses
+
+Scripts are organized under `analysis/` by analytical evidence layer. Follow the script headers, file manifest, and documented input–output mappings.
+
+The release is primarily designed to reproduce the reported analyses from the included analysis-level inputs. Complete reconstruction from every third-party raw dataset may require substantial storage, computation, and dataset-specific preprocessing.
+
+## Reproducibility safeguards
+
+The reproducibility package records the main analytical safeguards used in the study:
+
+* fixed 21-gene membership and equal gene weights;
+* fixed four-module assignment;
+* explicit `ECM_CORE_19` comparison;
+* patient-level paired pseudobulk reporting where applicable;
+* outcome-blind expression- and detection-matched gene panels;
+* separation of patient-, specimen-, and experimental-model reporting units;
+* preservation of modality-specific interpretation boundaries;
+* bootstrap confidence intervals and multiplicity adjustments;
+* recurrence-model, overlap, and matched-panel diagnostics;
+* random seeds and frozen computational resources;
+* figure-source and sample-mapping audits.
+
+Evidence from different modalities was not combined into a cross-modal meta-analysis. Within-specimen spatial associations and computational ligand–receptor candidates were not interpreted as patient-level replication or established signaling mechanisms.
+
+## Summary of analytical interpretation
+
+The reported analyses support the following bounded interpretation:
+
+* `ECM_LIGAND_21` showed greater fibroblast specificity than expression- and detection-matched panels in two paired cohorts.
+* M1 and M2 had the largest descriptive point estimates in fibroblast and epithelial contrasts, respectively, in both paired cohorts, although direct module superiority was not established.
+* The full-score neighborhood measure covaried positively with epithelial target programs within each of three spatial specimens.
+* `ECM_CORE_19` closely tracked the 21-gene score in sample rankings and recurrence estimates.
+* The validation, discrimination, CAF-adjusted, and matched-panel analyses did not establish incremental prognostic information for `ECM_LIGAND_21`.
+
+The composite should therefore be interpreted as an author-defined research construct for component-resolved biological investigation, rather than as a validated or clinically transferable biomarker.
+
+## Data availability and redistribution
+
+Author-generated analysis code, processed analysis-level data, derived results, figure-source data, and supporting documentation are included when redistribution is permitted.
+
+Large third-party raw datasets are not redistributed. They remain available from their original repositories and are subject to their original licenses, access conditions, and terms of use.
+
+The presence of a public accession number does not transfer ownership or relicensing rights to this repository. See [`THIRD_PARTY_DATA_NOTICE.md`](THIRD_PARTY_DATA_NOTICE.md) for details.
 
 ## Licensing
 
-This repository uses scoped mixed licensing:
+The repository uses separate licenses for different material types:
 
-- Original R and Python source code is licensed under the MIT License; see `LICENSE-CODE`.
-- Author-generated documentation, annotations, tables, figures, supplementary materials, and the authors' selection and arrangement of derived results are licensed under CC BY 4.0 to the extent that the authors hold the applicable rights; see `LICENSE-DATA`.
-- Underlying third-party and third-party-derived data are not relicensed. Their original source terms continue to apply; see `LICENSE`, `THIRD_PARTY_DATA_NOTICE.md`, and the dataset inventory.
+* Eligible author-generated R and Python source code is licensed under the [MIT License](LICENSE-CODE).
+* Eligible author-generated documentation, annotations, tables, figures, supplementary materials, and derived-result arrangements are licensed under [Creative Commons Attribution 4.0 International](LICENSE-DATA).
+* Third-party data and materials are not relicensed and remain subject to their original repository or publisher terms.
 
-Zenodo records this repository as software under the MIT License. File-specific CC BY 4.0 terms and third-party-data exclusions remain governed by `LICENSE-DATA`, `LICENSE`, and `THIRD_PARTY_DATA_NOTICE.md`.
+Review [`LICENSE`](LICENSE), [`LICENSE-CODE`](LICENSE-CODE), [`LICENSE-DATA`](LICENSE-DATA), and [`THIRD_PARTY_DATA_NOTICE.md`](THIRD_PARTY_DATA_NOTICE.md) before reuse or redistribution.
 
-## Repository metadata
+## Citation
 
-`CITATION.cff` provides citation metadata for this release. The development repository is available at https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility. The version-specific archival release is available at https://doi.org/10.5281/zenodo.22052359. The final article DOI will be added when available.
+If you use the code, analysis-level data, or derived materials in this repository, cite the version-specific Zenodo release:
+
+> Chen, T.-Y., Cai, Y., & Cai, T. (2026). *Functional Decomposition of an Author-Defined 21-Gene Extracellular Matrix Composite Characterizes Compartment-Associated Transcriptional Patterns in Colorectal Cancer* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.22052359                                    
+
+BibTeX:
+
+```bibtex
+@software{Chen_2026_ECM_LIGAND_21,
+  author    = {Chen, Tzu-Yu and Cai, Yannan and Cai, Ting},
+  title     = {Functional Decomposition of an Author-Defined 21-Gene Extracellular Matrix Composite Characterizes Compartment-Associated Transcriptional Patterns in Colorectal Cancer},
+  year      = {2026},
+  version   = {1.0.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22052359},
+  url       = {https://doi.org/10.5281/zenodo.22052359}
+}
+```
+
+Machine-readable citation metadata are available in [`CITATION.cff`](CITATION.cff).
+
+When the associated journal article becomes available, please cite both the article and the versioned reproducibility release.
+
+## Authors
+
+* Tzu-Yu Chen
+* Yannan Cai
+* Ting Cai
+
+## Correspondence
+
+**Ting Cai**
+Ningbo No. 2 Hospital
+Ningbo, Zhejiang, China
+
+Email:
+
+* [caiting@nbu.edu.cn](mailto:caiting@nbu.edu.cn)
+* [caiting@ucas.ac.cn](mailto:caiting@ucas.ac.cn)
+
+## Questions and issues
+
+For questions about the repository, reproducibility package, or file organization, open a GitHub Issue or contact the corresponding author.
+
+When reporting a reproducibility issue, include:
+
+* the repository release or commit identifier;
+* the operating system;
+* the R or Python version;
+* the script or analysis step involved;
+* the complete error message;
+* whether the versioned Zenodo release or the current GitHub branch was used.
