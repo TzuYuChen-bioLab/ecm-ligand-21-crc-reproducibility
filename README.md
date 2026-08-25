@@ -1,6 +1,9 @@
 # Functional Decomposition of an Author-Defined 21-Gene Extracellular Matrix Composite Characterizes Compartment-Associated Transcriptional Patterns in Colorectal Cancer
 
-**Version-specific archive:** [Zenodo v1.0.0 — 10.5281/zenodo.22052359                                    ](https://doi.org/10.5281/zenodo.22052359)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22052359.svg)](https://doi.org/10.5281/zenodo.22052359)
+
+**Version-specific archive:** [Zenodo v1.0.0 — 10.5281/zenodo.22052359](https://doi.org/10.5281/zenodo.22052359) 
+
 **GitHub release:** [v1.0.0](https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility/releases/tag/v1.0.0)
 
 ## Overview
@@ -30,7 +33,11 @@ The repository is intended to support reproducibility of the reported analyses. 
 | Release                | `v1.0.0`                                                                                                                    |
 | Release date           | 2026-08-22                                                                                                                  |
 | Resource type          | Software and analysis-level reproducibility materials                                                                       |
-| Version-specific DOI   | [10.5281/zenodo.22052359                                    ](https://doi.org/10.5281/zenodo.22052359)                      |
+| Version-specific DOI   | [10.5281/zenodo.22052359
+        
+                                            ](https://doi.org/10.5281/zenodo.22052359
+        
+        )                      |
 | Development repository | [TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility](https://github.com/TzuYuChen-bioLab/ecm-ligand-21-crc-reproducibility) |
 | R version              | R 4.5.0                                                                                                                     |
 | Python version         | Python 3.12.13                                                                                                              |
