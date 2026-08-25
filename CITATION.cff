@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the associated manuscript."
-title: "Functional Decomposition and Cross-Context Evaluation of a 21-Gene Extracellular Matrix Score in Colorectal Cancer"
+message: "If you use this code or data, please cite the associated manuscript and versioned Zenodo release."
+title: "Functional Decomposition of an Author-Defined 21-Gene Extracellular Matrix Composite Characterizes Compartment-Associated Transcriptional Patterns in Colorectal Cancer"
 type: software
-version: 1.0.0
-date-released: 2026-08-22
+version: "1.0.0"
+date-released: "2026-08-22"
+doi: "10.5281/zenodo.22052359"
 license: MIT
 authors:
   - family-names: Chen
